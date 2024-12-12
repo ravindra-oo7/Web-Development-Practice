@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Font-Size</title>
+    <style>
+      #pixel {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      #point {
+        font-size: 20pt;
+      }
+
+      #em {
+        font-size: 1em;
+      }
+
+      #rem {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 30pt;
+      }
+
+      html {
+        font-size: xx-large;
+      }
+
+      #weight{
+        font-size: 20pt;
+        font-weight: normal;        
+      }
+
+      #weight:hover{
+        font-size: 20pt;
+        font-weight: bolder;        
+      }
+
+      #h1Tag{
+        font-size: 20pt;
+        font-weight: bolder;        
+      }
+
+      .class007{
+         font-family: "Playfair Display", serif;
+         font-optical-sizing: auto;
+         font-weight: 400;
+         font-style: normal;
+}
+      
+
+
+    </style>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <p id="pixel">1 Pixel is 1/96 of an Inch</p>
+    <p id="point">1 Point is 1/72 of an Inch</p>
+    <footer>
+      <p id="em">1em is 100% the size of the parent element : In this case Footer Tag </p>
+      <p id="rem">1rem is 100% the size of the root element</p>
+    </footer>
+
+    <p id="weight">This is paragraph tag</p>
+    <h1 id="h1Tag" >This is H1 tag already Bold hence mouse hover action cant be visible</h1>
+    <h5 class="class007">This heading gets styling from linked font family</h5>
+  </body>
+</html>
